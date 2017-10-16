@@ -75,6 +75,13 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="hexValueTextField" destination="386" id="name-outlet-386"/>
+                        <outlet property="Convert" destination="390" id="name-outlet-390"/>
+                        <outlet property="redValue" destination="387" id="name-outlet-387"/>
+                        <outlet property="greenValue" destination="388" id="name-outlet-388"/>
+                        <outlet property="blueValue" destination="389" id="name-outlet-389"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
