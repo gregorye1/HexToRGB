@@ -52,6 +52,9 @@
                                 <state key="normal" title="Convert to RGB">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="Convert_TouchUpInside:" destination="BYZ-38-t0r" id="782" eventType="touchUpInside"/>
+                                </connections>
                             </button>
                         </subviews>
                         <variation key="default">
@@ -77,7 +80,7 @@
                     </view>
                     <connections>
                         <outlet property="hexValueTextField" destination="386" id="name-outlet-386"/>
-                        <outlet property="Convert" destination="390" id="name-outlet-390"/>
+                        <outlet property="convert" destination="390" id="name-outlet-390"/>
                         <outlet property="redValue" destination="387" id="name-outlet-387"/>
                         <outlet property="greenValue" destination="388" id="name-outlet-388"/>
                         <outlet property="blueValue" destination="389" id="name-outlet-389"/>
