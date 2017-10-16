@@ -15,7 +15,7 @@ namespace HextoRGB
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel blueValue { get; set; }
+        UIKit.UILabel blueHexValue { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -23,7 +23,7 @@ namespace HextoRGB
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel greenValue { get; set; }
+        UIKit.UILabel greenHexValue { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -31,7 +31,7 @@ namespace HextoRGB
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel redValue { get; set; }
+        UIKit.UILabel redHexValue { get; set; }
 
         [Action ("Convert_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
@@ -39,9 +39,9 @@ namespace HextoRGB
 
         void ReleaseDesignerOutlets ()
         {
-            if (blueValue != null) {
-                blueValue.Dispose ();
-                blueValue = null;
+            if (blueHexValue != null) {
+                blueHexValue.Dispose ();
+                blueHexValue = null;
             }
 
             if (convert != null) {
@@ -49,9 +49,9 @@ namespace HextoRGB
                 convert = null;
             }
 
-            if (greenValue != null) {
-                greenValue.Dispose ();
-                greenValue = null;
+            if (greenHexValue != null) {
+                greenHexValue.Dispose ();
+                greenHexValue = null;
             }
 
             if (hexValueTextField != null) {
@@ -59,9 +59,9 @@ namespace HextoRGB
                 hexValueTextField = null;
             }
 
-            if (redValue != null) {
-                redValue.Dispose ();
-                redValue = null;
+            if (redHexValue != null) {
+                redHexValue.Dispose ();
+                redHexValue = null;
             }
         }
     }
