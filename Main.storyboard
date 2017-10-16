@@ -81,9 +81,9 @@
                     <connections>
                         <outlet property="hexValueTextField" destination="386" id="name-outlet-386"/>
                         <outlet property="convert" destination="390" id="name-outlet-390"/>
-                        <outlet property="redHexValue" destination="387" id="name-outlet-387"/>
-                        <outlet property="greenHexValue" destination="388" id="name-outlet-388"/>
-                        <outlet property="blueHexValue" destination="389" id="name-outlet-389"/>
+                        <outlet property="redValueLabel" destination="387" id="name-outlet-387"/>
+                        <outlet property="greenValueLabel" destination="388" id="name-outlet-388"/>
+                        <outlet property="blueValueLabel" destination="389" id="name-outlet-389"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

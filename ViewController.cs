@@ -30,6 +30,10 @@ namespace HextoRGB
             int redValue = int.Parse(redHexValue, System.Globalization.NumberStyles.HexNumber);
             int greenValue = int.Parse(greenHexValue, System.Globalization.NumberStyles.HexNumber);
             int blueValue = int.Parse(blueHexValue, System.Globalization.NumberStyles.HexNumber);
+
+            redHexValue.Text = redValue.ToString();
+            greenHexValue.Text = greenValue.ToString();
+            blueHexValue.Text = blueValue.ToString();
         }
 
         public override void DidReceiveMemoryWarning()
