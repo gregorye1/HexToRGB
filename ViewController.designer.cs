@@ -19,6 +19,10 @@ namespace HextoRGB
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIView colorView { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton convert { get; set; }
 
         [Outlet]
@@ -42,6 +46,11 @@ namespace HextoRGB
             if (blueValueLabel != null) {
                 blueValueLabel.Dispose ();
                 blueValueLabel = null;
+            }
+
+            if (colorView != null) {
+                colorView.Dispose ();
+                colorView = null;
             }
 
             if (convert != null) {

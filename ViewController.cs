@@ -16,10 +16,10 @@ namespace HextoRGB
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
 
-            convert.TouchUpInside += Convert_TouchUpInside1;
+            convert.TouchUpInside += Convert_TouchUpInside;
         }
 
-        void Convert_TouchUpInside1(object sender, EventArgs e)
+        void Convert_TouchUpInside(object sender, EventArgs e)
         {
             //These strings are to assign the numbers to what values
             string hexValue = hexValueTextField.Text;
@@ -34,6 +34,9 @@ namespace HextoRGB
             redValueLabel.Text = redValue.ToString();
             greenValueLabel.Text = greenValue.ToString();
             blueValueLabel.Text = blueValue.ToString();
+
+            colorView.BackgroundColor = UIColor.FromRGB(redValue, greenValue, blueValue);
+                 
         }
 
         public override void DidReceiveMemoryWarning()
