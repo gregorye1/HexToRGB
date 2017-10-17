@@ -16,7 +16,7 @@ namespace HextoRGB
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
 
-            convert.TouchUpInside += Convert_TouchUpInside;
+            convertButton.TouchUpInside += Convert_TouchUpInside;
         }
 
         void Convert_TouchUpInside(object sender, EventArgs e)

@@ -86,12 +86,12 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="hexValueTextField" destination="386" id="name-outlet-386"/>
-                        <outlet property="convert" destination="390" id="name-outlet-390"/>
+                        <outlet property="convertButton" destination="390" id="name-outlet-390"/>
                         <outlet property="redValueLabel" destination="387" id="name-outlet-387"/>
                         <outlet property="greenValueLabel" destination="388" id="name-outlet-388"/>
                         <outlet property="blueValueLabel" destination="389" id="name-outlet-389"/>
                         <outlet property="colorView" destination="1389" id="name-outlet-1389"/>
+                        <outlet property="hexValueTextField" destination="386" id="name-outlet-386"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
