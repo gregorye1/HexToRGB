@@ -16,10 +16,10 @@ namespace HextoRGB
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
 
-            convertButton.TouchUpInside += ConvertButton_TouchUpInside;
+            newButton.TouchUpInside += NewButton_TouchUpInside;
         }
 
-        void ConvertButton_TouchUpInside(object sender, EventArgs e)
+        void NewButton_TouchUpInside(object sender, EventArgs e)
         {
 			//These strings are to assign the numbers to what values
 			string hexValue = hexValueTextField.Text;
